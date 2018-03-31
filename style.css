@@ -1,0 +1,58 @@
+
+
+body {
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+}
+
+a {
+color:black;
+}
+
+.container {
+display:flex;
+justify-content: space-between;
+}
+
+#Lheader {
+display:flex;
+flex-grow:2;
+border:1px solid black;
+}
+
+#Lheader h1 {
+color:MediumAquamarine;
+}
+
+#Rheader {
+display:flex;
+flex-grow:1;
+align-items:center;
+justify-content: space-around;
+}
+
+.column {
+display: flex;    
+flex-direction: column;    
+margin-right: 32px; 
+}
+
+.column.large{    
+width: 630px;
+} 
+.main-story.image-conent {
+	background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+	width: 630px;    
+	margin-top: 0;    
+	font-size: 40px;    
+	text-align: left; 
+}  
+
+
+.column.medium{    
+width: 300px;  
+}    
+.column.small{    
+width: 240px;  
+} 
